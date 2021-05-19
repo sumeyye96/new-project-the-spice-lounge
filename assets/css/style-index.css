@@ -93,9 +93,16 @@ section.social-media div {
   padding: 0.5rem;
   margin-right: 1rem;
 }
+section.social-media div:hover {
+  background-color: rgba(0, 0, 0, 0.61);
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
 
 section.social-media div i {
   font-size: 1.6rem;
+  color: white;
 }
 /*SOCIAL MEDIA*/
 /*ADDRESS*/
