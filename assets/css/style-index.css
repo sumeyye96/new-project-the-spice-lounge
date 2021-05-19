@@ -1,0 +1,131 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.carousel-item {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.171);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.carousel button {
+  position: absolute;
+  z-index: 3;
+}
+/*NAVBAR*/
+.navbar {
+  position: absolute;
+  z-index: 5;
+  bottom: 8rem;
+  left: 0;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media (max-width: 992px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    bottom: auto;
+  }
+}
+.navbar-brand {
+  padding-left: 3rem;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.navbar-brand span {
+  color: rgb(160, 5, 5);
+}
+.bg-light {
+  background-color: #000000dc !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+.navbar-nav li {
+  padding-right: 2rem;
+}
+/*NAVBAR*/
+/*SOCIAL MEDIA*/
+section.social-media {
+  position: absolute;
+  z-index: 8;
+  left: 8rem;
+  top: 3rem;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 10rem;
+}
+@media (max-width: 992px) {
+  section.social-media {
+    position: absolute;
+    z-index: 8;
+    left: 8rem;
+    top: 80vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+  }
+}
+section.social-media div {
+  background-color: rgba(160, 5, 5, 0.61);
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+section.social-media div i {
+  font-size: 1.6rem;
+}
+/*SOCIAL MEDIA*/
+/*ADDRESS*/
+section.address-info {
+  position: absolute;
+  right: 4rem;
+  top: 3rem;
+  z-index: 8;
+  color: white;
+  font-size: 1.1rem;
+}
+@media (max-width: 992px) {
+  section.address-info {
+    position: absolute;
+    right: 4rem;
+    top: 70vh;
+    z-index: 8;
+    color: white;
+    font-size: 1.1rem;
+  }
+}
+section.address-info .address {
+  text-align: right;
+}
+section.address-info .phone-number {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+section.address-info hr {
+  color: rgb(255, 0, 0);
+  font-weight: 900;
+}
+/*ADDRESS*/
