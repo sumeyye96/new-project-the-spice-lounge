@@ -1,0 +1,100 @@
+/*COMMON*/
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url(../img/about-us-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*COMMON*/
+/*NAVBAR*/
+.navbar {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  bottom: auto;
+  left: 0;
+  width: 100%;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.navbar-brand {
+  padding-left: 3rem;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.navbar-brand span {
+  color: rgb(160, 5, 5);
+}
+.bg-light {
+  background-color: #000000dc !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+.navbar-nav li {
+  padding-right: 3rem;
+}
+.navbar-nav li:last-child {
+  padding-right: 5rem;
+}
+/*NAVBAR*/
+/*SECTİON HAKKİMİZDA*/
+section.hakkimizda {
+  width: 60%;
+  height: 88.5vh;
+  position: absolute;
+  top: 4.5rem;
+  right: 0;
+  color: rgb(236, 234, 234);
+  background-color: rgba(0, 0, 0, 0.89);
+  border: 2px solid rgb(160, 5, 5);
+}
+/*SECTİON HAKKİMİZDA*/
+
+div.contain-sec {
+  padding-left: 4rem;
+}
+div.contain-sec h1 {
+  color: rgb(160, 5, 5);
+}
+div.contain-sec h1 {
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+div.contain-sec h2 {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  color: rgba(160, 5, 5, 0.61);
+}
+div.contain-sec p {
+  padding-top: 1rem;
+}
+
+div.table-hours {
+  padding-top: 0.5rem;
+}
+div.table-hours > div {
+  padding-top: 0.3rem;
+}
+div.table-hours > div:nth-child(odd) {
+  color: rgb(160, 5, 5);
+}
+
+h2.book-table {
+  padding-top: 1rem;
+}
+
+.btn-danger {
+  background-color: rgb(160, 5, 5);
+  outline: none;
+  border: none;
+  margin-top: 2rem;
+}
